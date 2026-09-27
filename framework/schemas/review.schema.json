@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project Review Finding",
+  "type": "object",
+  "required": ["id", "severity", "category", "finding", "status"],
+  "properties": {
+    "id": {"type": "string"},
+    "severity": {"enum": ["blocker", "critical", "major", "minor", "suggestion"]},
+    "category": {"type": "string"},
+    "location": {"type": "string"},
+    "finding": {"type": "string"},
+    "recommendation": {"type": "string"},
+    "status": {"enum": ["open", "resolved", "accepted"]}
+  }
+}
+

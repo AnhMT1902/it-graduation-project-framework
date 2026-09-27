@@ -1,0 +1,17 @@
+version: 1
+red_threshold: 0.78
+yellow_threshold: 0.52
+weights:
+  problem: 0.20
+  users: 0.15
+  use_cases: 0.30
+  entities: 0.15
+  contribution: 0.10
+  technology: 0.05
+  interface: 0.05
+rules:
+  - "Đổi framework hoặc database không đủ tạo khác biệt học thuật."
+  - "Đổi màu sắc hoặc giao diện không đủ tạo khác biệt học thuật."
+  - "Mức đỏ bị chặn tuyệt đối cho đến khi thay đổi phạm vi."
+  - "Mức vàng phải bổ sung unique_contribution."
+

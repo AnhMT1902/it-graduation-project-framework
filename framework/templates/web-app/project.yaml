@@ -1,0 +1,30 @@
+project_id: PRJ-YYYY-NNN
+student:
+  id: STUDENT_ID
+  name: STUDENT_NAME
+  folder_name: STUDENT_FOLDER
+title: PROJECT_TITLE
+problem_statement: "TODO: được agent chuẩn hóa từ input tự do"
+scope_level: "Đồ án tốt nghiệp - MVP có thể demo và bảo vệ"
+scope_constraints:
+  - "Ưu tiên chức năng cốt lõi, tài liệu, test và khả năng chạy Docker."
+  - "Không mặc định xây dựng hệ thống production quy mô lớn."
+  - "Mọi scope change phải được ghi nhận và xác nhận trước khi implement."
+target_users: []
+core_use_cases: []
+main_entities: []
+unique_contribution: []
+requested_documents:
+  - requirements
+  - architecture
+  - database_design
+  - test_plan
+  - deployment_guide
+preferred_stack: {}
+status: INTAKE
+approval:
+  status: pending
+similarity:
+  status: not_checked
+  score: 0
+

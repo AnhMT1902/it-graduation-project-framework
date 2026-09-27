@@ -1,0 +1,27 @@
+version: 1
+projects:
+  - project_id: PRJ-2026-001
+    student_id: SV-PENDING-HMN
+    student_name: Huynh Minh Nhut
+    project_folder: projects/SV-PENDING-HMN_HuynhMinhNhut
+    title: Tìm hiểu và xây dựng Website quản lý công văn đến của đơn vị
+    problem_summary: "Website hỗ trợ tiếp nhận, phân loại, phân công, theo dõi và tra cứu công văn đến của đơn vị."
+    domain: document_management
+    target_users:
+      - văn thư
+      - lãnh đạo đơn vị
+      - cán bộ xử lý công văn
+    core_use_cases:
+      - tiếp nhận công văn đến
+      - phân công xử lý
+      - theo dõi trạng thái xử lý
+      - tra cứu và báo cáo
+    main_entities:
+      - users
+      - incoming_documents
+      - document_assignments
+      - document_statuses
+      - attachments
+    unique_contribution: []
+    status: approved
+    similarity_status: green

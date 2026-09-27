@@ -1,0 +1,34 @@
+# Student projects and generated releases stay local by default
+projects/*
+!projects/.gitkeep
+releases/*
+!releases/.gitkeep
+
+# Runtime and local data
+**/database/runtime-data/**
+!framework/templates/**/database/runtime-data/
+!framework/templates/**/database/runtime-data/.gitkeep
+**/input/**
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build and dependency output
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+.pytest_cache/
+__pycache__/
+*.log
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

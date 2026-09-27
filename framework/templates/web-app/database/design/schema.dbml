@@ -1,0 +1,6 @@
+Project starter {
+  database_type: 'PostgreSQL'
+}
+
+// Agent phải thay thế schema starter bằng thiết kế database đã được duyệt.
+
